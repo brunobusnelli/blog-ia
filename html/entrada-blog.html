@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/entrada-blog.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Swanky-and-Moo-Moo" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>IA</title>
+  </head>
+<body>
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg bg-primario">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><i class="ri-openai-fill"></i></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+          <ul class="menu navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html"
+                ><span>IA</span> <span> <i class="ri-openai-line"></i> </span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html"
+                ><span>Contacto</span><span><i class="ri-contacts-line"></i></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html"
+                ><span>Acerca de Nosotros</span><span><i class="ri-group-line"></i></span
+              ></a>
+            </li>
+          </ul>
+          <ul class="menu navbar-nav ms-auto mb-lg-0 mt-ls-1">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                ><span>Inicia Sesión</span> <span><i class="ri-login-box-line"></i></span
+              ></a>
+            </li>
+          </ul>
+          <button
+            class="btn text-secondary my-1 justify-content-center me-5 menu nav-item"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modalMedialuna"
+          >
+            <span>Suscribete</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="modal fade" id="modalMedialuna" tabindex="-1" aria-labelledby="modalMedialunaLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-secundario">
+            <h3 class="modal-title text-light" id="modalMedialunaLabel">
+              <strong>Suscribete</strong>
+            </h3>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-secundario">
+            <p class="fs-4 text-center text-light">Ingrese tus datos</p>
+            <div class="mb-3">
+              <label for="usuario" class="form-label text-light">Usuario</label>
+              <input type="text" id="usuario" placeholder="Ingrese su usuario" class="form-control" minlength="3" maxlength="20" required />
+            </div>
+            <div class="mb-3">
+              <label for="mail" class="form-label text-light">Mail</label>
+              <input type="mail" id="mail" placeholder="juanperez@outlook.com" class="form-control" required />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label text-light">Contraseña</label>
+              <input type="password" id="password" placeholder="Ingrese su contraseña" class="form-control text-dark" minlength="3" maxlength="20" required />
+            </div>
+            <div class="bg-secundario">
+              <input class="form-label bg-secundario" type="checkbox" value="" id="flexCheckDefault" />
+              <label class="form-check-label bg-secundario text-light" for="flexCheckDefault">Desea recibir notificaciones</label>
+            </div>
+          </div>
+          <div class="modal-footer bg-secundario">
+            <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cerrar</button>
+            <a type="button" class="btn btn-outline-light">Ingresar</a>
+            <a href="error404.html"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <main>
+        <section id="hero">
+        </section>
+
+        <section class="espacio" id="main">
+            <div class="container">
+                <div class="row">
+                    <div class="linea mb-5"></div>
+                    <div class="col-12 text-center">
+                        <h3 data-aos="fade-down">ChatGPT: qué es, cómo usarlo y qué puedes hacer con este chat de inteligencia artificial.</h3>
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-12 mt-5" data-aos="fade-down">
+                            <p>
+                                Vamos a explicarte qué es ChatGPT y qué puedes hacer con él y ChatGPT Plus, un sistema de chat con inteligencia artificial que está sorprendiéndonos a todos. Se trata de uno de los sistemas de IA más capaces que hemos probado en los últimos tiempos, capaz de responder a cualquier cosa que le pidas, y de hacer muchas cosas que le solicites. Se ha hecho tan popular que hay muchos proyectos alternativos basados en esta IA, incluyendo hablar con ChatGPT en WhatsApp.
+                            </p>
+                            <p>
+                                Se trata de una inteligencia artificial que está entrenada para mantener conversaciones, de manera que solo tienes que hacerle preguntas de manera convencional y las entenderá. Esto abre la puerta a las muchas funciones de ChatGPT, gran cantidad de comandos con los que usarla. Empezaremos explicándote lo que es, y luego te pondremos algunos ejemplos de lo que puedes llegar a hacer con ella.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-12" data-aos="fade-down">
+                            <img src="../assets/image/1366_2000.jpeg" alt="chatgpt" class="mt-5 img-fluid">
+                        </div>
+                    </div>
+                    <div class="row" data-aos="fade-down">
+                        <div class="col-12 mt-5 d-flex flex-row align-items-center">
+                            <h3>
+                                Qué es ChatGPT
+                            </h3>
+                            <div class="linea"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="row" data-aos="fade-down">
+                        <div class="col-lg-6 col-12 mt-5 text-center d-flex justify-content-center align-items-center ">
+                            <iframe width="560" height="350" src="https://www.youtube.com/embed/NiDat36IyF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-6 col-12 mt-5">
+                            <p>
+                                ChatGPT es un sistema de chat basado en el modelo de lenguaje por Inteligencia Artificial GPT-3, desarrollado por la empresa OpenAI. Es un modelo con más de 175 millones de parámetros, y entrenado con grandes cantidades de texto para realizar tareas relacionadas con el lenguaje, desde la traducción hasta la generación de texto.
+                            </p>
+                            <p>
+                                A una inteligencia artificial se la entrena a base de texto, se le hacen preguntas y se le añade información, de manera que este sistema, a base de correcciones a lo largo del tiempo, va "entrenándose" para realizar de forma automática la tarea para la que ha sido diseñada. Este es el método para entrenar a todas las IA, tanto a la de ChatGPT como otras del estilo de los Magic Avatars de Lensa.
+                            </p>
+                            <p>
+                                En el caso de ChatGPT, esta IA ha sido entrenada para mantener conversaciones con cualquier persona. Sus algoritmos deberían ser capaces de entender lo que le estés preguntando con precisión, incluyendo adjetivos y variaciones que añadas en tus frases, y de responderte de una manera coherente.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row" data-aos="fade-down">
+                        <div class="col-12 mt-5 d-flex flex-row align-items-center">
+                            <h3>
+                                Como usar ChatGPT
+                            </h3>
+                            <div class="linea"></div>
+                        </div>
+                    </div>
+                    <div class="row" data-aos="fade-down">
+                        <div class="col-12 mt-5" data-aos="fade-down">
+                            <p>
+                                Empezar a tener tus conversaciones con testa inteligencia artificial es muy sencillo. Lo único que tienes que hacer es entrar a su web oficial, que es <strong>https://chat.openai.com.</strong> La primera vez que entres tendrás que crearte una cuenta en la web de OpenAI, pero todo es completamente gratuito, y también el chat.
+                            </p>
+                        </div>
+                    </div>
+                        <div class="row mb-3" data-aos="fade-down">
+                            <div class="col-lg-5 col-12">
+                                <p>
+                                Y una vez inicies sesión ya entrarás en el chat. En él, abajo del todo tendrás la barra donde tú escribes lo que quieras. Antes de empezar verás algunos ejemplos en inglés de cosas que le puedes preguntar, pero recuerda que también puedes hacerle preguntas en Español, y pedirle que te hable en español o en cualquier otro idioma que tú prefieras. Vamos, que es fácil usar ChatGPT en español.
+                            </p>
+                            <p>
+                                A la hora de utilizarlo, es recomendable que experimentes con distintos tipos de peticiones para explorar todas las funciones de la IA. En casos como este, el ingenio a la hora de realizar preguntas o peticiones puede ser clave para obtener resultados sorprendentes.
+                            </p>
+                            </div>
+                            <div class="col-lg-7 col-12 text-center">
+                                <img src="../assets/image/1366_2000.jpg" alt="chatgpt" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="row" data-aos="fade-down">
+                            <div class="col-12">
+                            <p>
+                                Lo único que debes hacer es recordar que todo lo que escribas quedará registrado, y podrá ser revisado después por los desarrolladores de OpenIA para seguir entrenando a ChatGPT. Por lo tanto, intenta no incluir información personal tuya ni peticiones que sean potencialmente peligrosas o delictivas.
+                            </p>
+                            </div>
+                        </div>
+                        <div class="row" data-aos="fade-down">
+                          <div class="col-12 mt-5 d-flex flex-row align-items-center">
+                              <h3>
+                                Qué puedes hacer con ChatGPT
+                              </h3>
+                              <div class="linea"></div>
+                          </div>
+                        </div>
+                        <div class="col-12 mt-5">
+                          <img src="../assets/image/1366_2001.jpg" alt="" class="img-fluid" data-aos="fade-down">
+                          <p class="mt-4" data-aos="fade-down">
+                            ChatGPT es una de esas herramientas cuyas funciones completas todavía no han sido descubiertas, porque en parte depende del ingenio de las personas que interactúan con ella, aunque puedes hacer muchas cosas con ella. Lo más sencillo es pedirle que te explique cualquier cosa, evento o concepto, y la IA lo hará a través de los datos con los que se la ha entrenado.
+                          </p>
+                          <p data-aos="fade-down">
+                            Esto también te servirá para que te escriba artículos o resumenes pudiendo pedirle un número máximo de caracteres o palabras explicando sucesos históricos, personajes famosos, dispositivos tecnológicos. Básicamente puede ser tu periodista particular, o tu chuleta para clases.
+                          </p>
+                          <p data-aos="fade-down">
+                            También puedes pedirle que te escriba estos textos de una manera determinada. Por ejemplo, puedes pedirle que te haga un guión de YouTube o de TikTok para explicar estas cosas, que lo haga con un tono concreto como informal o más serio, o incluso que lo haga con las tonalidades de ciertas regiones. Escríbelo como un andaluz.
+                          </p>
+                          <p data-aos="fade-down">
+                            También puedes pedirle muchas otras cosas, como listas de páginas web o de herramientas, pedirle consejo sobre qué móvil comprar, o temas relacionados con la cultura general, trivials, traducciones, definiciones, explicaciones, y todo lo que se te ocurra. Hay muchos ejemplos, y puedes intentar preguntarle cosas que nadie haya preguntado antes para descubrir nuevas funciones.
+                          </p>
+                          <div class="linea mt-5" data-aos="fade-down"></div>
+                        </div>
+                        
+        </section>
+        
+        <section id="comentarios">
+          <div class="container">
+            <div class="row" data-aos="fade-down">
+              <div class="col-12 text-center">
+                <h4>Dejanos tu comentario!.</h4>
+              </div>
+            </div>
+            <div class="row mt-5" data-aos="fade-down">
+              <div class="col-12">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <label for="floatingTextarea2">Escribe tu comentario</label>
+                  <button type="button" class="btn btn-outline-primary mt-2">Enviar comentario.</button>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5" data-aos="fade-down">
+              <div class="col-lg-4 d-flex gap-5 align-items-center">
+                <div class="text-center">
+                  <img src="../assets/image/avatar.jpg" class="rounded-circle" alt="">
+                  <p class="fw-bold">Lionel Messi</p>
+                </div>
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, pariatur? Cumque accusamus alias voluptatum molestiae modi, quas quis labore dignissimos.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex gap-5 align-items-center">
+                <div class="text-center">
+                  <img src="../assets/image/avatar.jpg" class="rounded-circle" alt="">
+                  <p class="fw-bold">Lionel Messi</p>
+                </div>
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, pariatur? Cumque accusamus alias voluptatum molestiae modi, quas quis labore dignissimos.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex gap-5 align-items-center">
+                <div class="text-center">
+                  <img src="../assets/image/avatar.jpg" class="rounded-circle" alt="">
+                  <p class="fw-bold">Lionel Messi</p>
+                </div>
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, pariatur? Cumque accusamus alias voluptatum molestiae modi, quas quis labore dignissimos.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5" data-aos="fade-down">
+              <div class="col-lg-4 d-flex gap-5 align-items-center">
+                <div class="text-center">
+                  <img src="../assets/image/avatar.jpg" class="rounded-circle" alt="">
+                  <p class="fw-bold">Lionel Messi</p>
+                </div>
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, pariatur? Cumque accusamus alias voluptatum molestiae modi, quas quis labore dignissimos.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex gap-5 align-items-center">
+                <div class="text-center">
+                  <img src="../assets/image/avatar.jpg" class="rounded-circle" alt="">
+                  <p class="fw-bold">Lionel Messi</p>
+                </div>
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, pariatur? Cumque accusamus alias voluptatum molestiae modi, quas quis labore dignissimos.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 d-flex gap-5 align-items-center">
+                <div class="text-center">
+                  <img src="../assets/image/avatar.jpg" class="rounded-circle" alt="">
+                  <p class="fw-bold">Lionel Messi</p>
+                </div>
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, pariatur? Cumque accusamus alias voluptatum molestiae modi, quas quis labore dignissimos.</p>
+                </div>
+              </div>
+            </div>
+            <div class="linea mt-5" data-aos="fade-down"></div>
+          </div>
+        </section>
+
+        
+      </main>
+    
+    <footer class="bg-primario fuente">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-3 col-sm-6 text-center">
+              <a href="../index.html" style="text-decoration: none"><img src="Logo" alt="Logo" /></a>
+            </div>
+            <!-- imagen lleva a pagina principal -->
+            <div class="col-lg-3 col-sm-6 social-icons text-center">
+              <a href="https://www.twitter.com/" target="_blank" style="text-decoration: none"><i class="ri-twitter-fill"></i></a>
+              <a href="https://www.instagram.com/" target="_blank" style="text-decoration: none"><i class="ri-instagram-fill"></i></a>
+              <a href="https://www.facebook.com/" target="_blank" style="text-decoration: none"><i class="ri-facebook-fill"></i></a>
+              <a href="https://www.tiktok.com/" target="_blank" style="text-decoration: none"><i class="ri-tiktok-fill"></i></a>
+            </div>
+            <div class="col-lg-3 col-sm-6 text-center">
+              <a href="./contacto.html" style="text-decoration: none"> <p class="mb-0 h5 text-white">Contacto</p></a>
+            </div>
+            <div class="col-lg-3 col-sm-6 text-center">
+              <a href="./nosotros.html" style="text-decoration: none"> <p class="mb-0 h5 text-white">Nosotros</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row g-4 justify-content-center">
+            <div class="col-auto">
+              <p class="mb-0">© Copyright. Todos los derechos reservados.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

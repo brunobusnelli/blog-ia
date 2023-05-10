@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nosotros.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Swanky-and-Moo-Moo" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Acerca de nosotros</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-primario">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><i class="ri-openai-fill"></i></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+              <ul class="menu navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html"
+                    ><span>IA</span> <span> <i class="ri-openai-line"></i> </span
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html"
+                    ><span>Contacto</span><span><i class="ri-contacts-line"></i></span
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./nosotros.html"
+                    ><span>Acerca de Nosotros</span><span><i class="ri-group-line"></i></span
+                  ></a>
+                </li>
+              </ul>
+              <ul class="menu navbar-nav ms-auto mb-lg-0 mt-ls-1">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    ><span>Inicia Sesión</span> <span><i class="ri-login-box-line"></i></span
+                  ></a>
+                </li>
+              </ul>
+              <button
+                class="btn text-secondary my-1 justify-content-center me-5 menu nav-item"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#modalMedialuna"
+              >
+                <span>Suscribete</span>
+              </button>
+            </div>
+          </div>
+        </nav>
+        <div class="modal fade" id="modalMedialuna" tabindex="-1" aria-labelledby="modalMedialunaLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-secundario">
+                <h3 class="modal-title text-light" id="modalMedialunaLabel">
+                  <strong>Suscribete</strong>
+                </h3>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-secundario">
+                <p class="fs-4 text-center text-light">Ingrese tus datos</p>
+                <div class="mb-3">
+                  <label for="usuario" class="form-label text-light">Usuario</label>
+                  <input type="text" id="usuario" placeholder="Ingrese su usuario" class="form-control" minlength="3" maxlength="20" required />
+                </div>
+                <div class="mb-3">
+                  <label for="mail" class="form-label text-light">Mail</label>
+                  <input type="mail" id="mail" placeholder="juanperez@outlook.com" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label text-light">Contraseña</label>
+                  <input type="password" id="password" placeholder="Ingrese su contraseña" class="form-control text-dark" minlength="3" maxlength="20" required />
+                </div>
+                <div class="bg-secundario">
+                  <input class="form-label bg-secundario" type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label bg-secundario text-light" for="flexCheckDefault">Desea recibir notificaciones</label>
+                </div>
+              </div>
+              <div class="modal-footer bg-secundario">
+                <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cerrar</button>
+                <a type="button" class="btn btn-outline-light">Ingresar</a>
+                <a href="error404.html"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="nosotros">
+
+            <div class="container">
+                <div class="row justify-content-center" data-aos="fade-down">
+                    <h1 class="text-sm-start text-md-center text-lg-center text-uppercase mt-4"><strong>acerca de nosotros</strong></h1>
+                    <img src="../assets/image/ilustrativa.jpg" alt="ilustrativa" class="col-sm-12 col-md-6 col-lg-6 img-fluid rounded-5 p-4">
+                    <p class="p-2 col-lg-9 text-black">Somos un equipo de aprendices de programadores apasionados por la tecnología y la innovación. Estamos comprometidos en aprender juntos y superar desafíos que nos permitan crecer en nuestras habilidades de programación, tanto individualmente como en equipo. Nos enfocamos en proyectos que no solo nos permitan aprender, sino también en los que podamos aplicar nuestros conocimientos para crear soluciones creativas y efectivas. ¡Estamos emocionados por lo que el futuro nos depara!</p>                
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center m-3" data-aos="fade-down">
+                    <div id="tarjeta" class="card m-1" style="width: 18rem;">
+                        <img id="avatar" src="../assets/image/Avatar1.jpg" class="card-img-top" alt="avatar">
+                        <div class="card-body m-2 fw-bold">
+                          <h5 class="card-title">Bruno Antonio Busnelli <strong>(Scrum Master)</strong></h5>
+                          <p class="card-text">Soy Bruno Busnelli estudiante de programación. Soy fanático del deporte, del asado y las reuniones con amigos! </p>
+                        </div>
+                    </div>
+                    <div id="tarjeta" class="card m-1" style="width: 18rem;">
+                        <img id="avatar" src="../assets/image/Avatar2.jpg" class="card-img-top" alt="avatar">
+                        <div class="card-body m-2 fw-bold">
+                          <h5 class="card-title">Eliana María Farías</h5>
+                          <p class="card-text">Soy Eliana Farías, abogada, tengo 32 años y estudio programación. Trabajo en la Defensoría del Pueblo de la provincia de Tucumán. Me gusta hacer pilates.</p>
+                        </div>
+                    </div>
+                    <div id="tarjeta" class="card m-1" style="width: 18rem;">
+                        <img id="avatar" src="../assets/image/Avatar3.jpg" class="card-img-top" alt="avatar">
+                        <div class="card-body m-2 fw-bold">
+                          <h5 class="card-title">Cristian Barrionuevo</h5>
+                          <p class="card-text">Soy Cristian Barrionuevo, tengo 29 años. Estoy estudiando para Contador Público y programación. Me gustan todos los deportes, especialmente el futbol, disfrutar jugar con amigos, los asados y viajar!</p>
+                        </div>
+                    </div>
+                    <div id="tarjeta" class="card m-1" style="width: 18rem;">
+                        <img id="avatar" src="../assets/image/Avatar4.jpg" class="card-img-top" alt="avatar">
+                        <div class="card-body m-2 fw-bold">
+                          <h5 class="card-title">Silvio Gonzalo Andrade</h5>
+                          <p class="card-text">Soy Gonzalo Andrade, en busca de la generacion de ideas, amante de la musica y de los mosquitos de verano. Tengo 35 abriles y espero seguir aprendiendo cosas nuevas hasta que la muerte nos separe.</p>
+                        </div>
+                    </div>
+                    <div id="tarjeta" class="card m-1" style="width: 18rem;">
+                        <img id="avatar" src="../assets/image/Avatar5.jpg" class="card-img-top" alt="avatar">
+                        <div class="card-body m-2 fw-bold">
+                          <h5 class="card-title">Francisco José Vicente</h5>
+                          <p class="card-text">Soy Francisco José Vicente, estudiante de Ingeniería en Informática, actualmente cursando 3er año e introduciéndome en el mundo IT gracias a Rolling Code y a mi carrera. En mis tiempos libres me gusta codificar o jugar al pádel con amigos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    </main>
+    <footer class="bg-primario fuente">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col-lg-3 col-sm-6 text-center">
+                <a href="../index.html" style="text-decoration: none"><img src="Logo" alt="Logo" /></a>
+              </div>
+              <!-- imagen lleva a pagina principal -->
+              <div class="col-lg-3 col-sm-6 social-icons text-center">
+                <a href="https://www.twitter.com/" target="_blank" style="text-decoration: none"><i class="ri-twitter-fill"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" style="text-decoration: none"><i class="ri-instagram-fill"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" style="text-decoration: none"><i class="ri-facebook-fill"></i></a>
+                <a href="https://www.tiktok.com/" target="_blank" style="text-decoration: none"><i class="ri-tiktok-fill"></i></a>
+              </div>
+              <div class="col-lg-3 col-sm-6 text-center">
+                <a href="../html/contacto.html" style="text-decoration: none"> <p class="mb-0 h5 text-white">Contacto</p></a>
+              </div>
+              <div class="col-lg-3 col-sm-6 text-center">
+                <a href="./nosotros.html" style="text-decoration: none"> <p class="mb-0 h5 text-white">Nosotros</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row g-4 justify-content-center">
+              <div class="col-auto">
+                <p class="mb-0">© Copyright. Todos los derechos reservados.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>

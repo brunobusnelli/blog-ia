@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Swanky-and-Moo-Moo" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>IA</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg bg-primario">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><i class="ri-openai-fill"></i></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <ul class="menu navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html"
+                  ><span>IA</span> <span> <i class="ri-openai-line"></i> </span
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/contacto.html"
+                  ><span>Contacto</span><span><i class="ri-contacts-line"></i></span
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/nosotros.html"
+                  ><span>Acerca de Nosotros</span><span><i class="ri-group-line"></i></span
+                ></a>
+              </li>
+            </ul>
+            <ul class="menu navbar-nav ms-auto mb-lg-0 mt-ls-1">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"
+                  ><span>Inicia Sesión</span> <span><i class="ri-login-box-line"></i></span
+                ></a>
+              </li>
+            </ul>
+            <button
+              class="btn text-secondary my-1 justify-content-center me-5 menu nav-item"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#modalMedialuna"
+            >
+              <span>Suscribete</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <div class="modal fade" id="modalMedialuna" tabindex="-1" aria-labelledby="modalMedialunaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-secundario">
+              <h3 class="modal-title text-light" id="modalMedialunaLabel">
+                <strong>Suscribete</strong>
+              </h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-secundario">
+              <p class="fs-4 text-center text-light">Ingrese tus datos</p>
+              <div class="mb-3">
+                <label for="usuario" class="form-label text-light">Usuario</label>
+                <input type="text" id="usuario" placeholder="Ingrese su usuario" class="form-control" minlength="3" maxlength="20" required />
+              </div>
+              <div class="mb-3">
+                <label for="mail" class="form-label text-light">Mail</label>
+                <input type="mail" id="mail" placeholder="juanperez@outlook.com" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label text-light">Contraseña</label>
+                <input type="password" id="password" placeholder="Ingrese su contraseña" class="form-control text-dark" minlength="3" maxlength="20" required />
+              </div>
+              <div class="bg-secundario">
+                <input class="form-label bg-secundario" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label bg-secundario text-light" for="flexCheckDefault">Desea recibir notificaciones</label>
+              </div>
+            </div>
+            <div class="modal-footer bg-secundario">
+              <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cerrar</button>
+              <a type="button" class="btn btn-outline-light">Ingresar</a>
+              <a href="error404.html"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="slider">
+        <div id="carouselExampleCaptions" class="carousel slide min-vh-50 w-100">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/image/banner-home-chatgtp-inteligencia-artificial-2023.png"
+                class="d-block vh-50 w-100 img-fluid"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/image/inteligencia-artificial.jpeg"
+                class="d-block vh-50 w-100 img-fluid"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="main" class="espacio">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-12 mb-5 d-flex flex-row align-items-center justify-content-between">
+                    <h3 data-aos="fade-down">
+                        Entradas más recientes
+                    </h3>
+                    <div class="linea" data-aos="fade-down"></div>
+                </div>
+                <div class="col-lg-7 col-12 d-flex flex-column gap-4">
+                    <div class="mb-5" data-aos="fade-up">
+                        <img src="./assets/image/chatgpt.png" class="reciente1 img-fluid mb-3" alt="">
+                        <h5>ChatGPT: qué es, cómo usarlo y qué puedes hacer.</h5>
+                        <p>Vamos a explicarte qué es ChatGPT y qué puedes hacer con él y ChatGPT Plus, un sistema de chat con inteligencia artificial que está sorprendiéndonos a todos. Se trata de uno de los sistemas de IA más capaces que hemos probado en los últimos tiempos, capaz de responder a cualquier cosa que le pidas, y de hacer muchas cosas que le solicites. Se ha hecho tan popular que hay muchos proyectos alternativos basados en esta IA, incluyendo hablar con ChatGPT en WhatsApp.</p>
+                        <p><small>Fecha 10/05/2023</small></p>
+                        <a href="./html/entrada-blog.html">Ver más.</a>
+                    </div>
+                
+                    <div class="mb-5 d-lg-flex gap-5" data-aos="fade-up">
+                        <img src="./assets/image/GPT4.jpeg" class="reciente2 mb-4 img-fluid" alt="">
+                        <div class="d-flex flex-column text-start justify-content-center">
+                            <h5>GPT-4: así es la IA más avanzada de OpenAI, cómo funciona y todas las novedades</h5>
+                        <p>GPT-4 es nombre del más reciente modelo de lenguaje preentrenado de OpenAI, una compañía de inteligencia artificial que anteriormente ha lanzado otras versiones del modelo, GPT (2018), GPT-2 (2019), GPT-3 (2020) y GPT-3.5 (2022), y que también está detrás de otra herramienta popular, el generador de imágenes DALL·E.</p>
+                        <p><small>Fecha 09/05/2023</small></p>
+                        <a href="https://www.xataka.com/nuevo/gpt-4-que-cuando-sale-como-funciona-toda-informacion#:~:text=GPT%2D4%20es%20nombre%20del,generador%20de%20im%C3%A1genes%20DALL%C2%B7E." target="_blank">Ver más.</a>
+                        </div>
+                        
+                    </div>
+                    <div class="mb-5 d-lg-flex gap-5" data-aos="fade-up">
+                        <img src="./assets/image/IA.jpeg" class="reciente2 mb-4 img-fluid" alt="">
+                        <div class="d-flex flex-column text-start justify-content-center">
+                            <h5>¿Que es la Inteligencia Artificial?</h5>
+                        <p>Hace tiempo que la inteligencia artificial abandonó el espectro de la ciencia ficción para colarse en nuestras vidas y, aunque todavía en una fase muy inicial, está llamada a protagonizar una revolución equiparable a la que generó Internet. Sus aplicaciones en múltiples sectores —como salud, finanzas, transporte o educación, entre otros— han provocado que la Unión Europea desarrolle sus propias Leyes de la Robótica.
+                        </p>
+                        <p><small>Fecha 08/05/2023</small></p>
+                        <a href="https://www.iberdrola.com/innovacion/que-es-inteligencia-artificial" target="_blank">Ver más.</a>
+                        </div>
+                </div>
+                <div class="mb-5 d-lg-flex gap-5" data-aos="fade-up">
+                    <img src="./assets/image/etica-en-la-inteligencia-artificia.jpg" class="reciente2 mb-4 img-fluid" alt="">
+                    <div class="d-flex flex-column text-start justify-content-center">
+                        <h5>¿Cuáles son los dilemas éticos del uso de la inteligencia artificial?</h5>
+                    <p>El uso de algoritmos implica una revolución en los sistemas de seguridad y videovigilancia. También ha puesto de actualidad la importancia de un uso ético y responsable de estos recursos tecnológicos que suponen un salto cualitativo esperanzador, pero no exento de riesgos
+                    </p>
+                    <p><small>Fecha 08/05/2023</small></p>
+                    <a href="https://elpais.com/economia/entorno-seguro/2021-12-01/cuales-son-los-dilemas-eticos-del-uso-de-la-inteligencia-artificial.html" target="_blank">Ver más.</a>
+                    </div>
+            </div>
+                </div>
+                <div class="col-lg-4 col-12" data-aos="fade-down">
+                    <div>
+                        <form class="d-flex mb-5" role="search">
+                            <input
+                              class="form-control me-2"
+                              type="search"
+                              aria-label="Search"
+                            />
+                            <button class="btn btn-outline-primary" type="submit">
+                              Buscar
+                            </button>
+                        </form>
+                    </div>
+                    <div class="mb-5">
+                      <h5 class="mb-4">Categorias de busqueda</h5>
+                        <ul class="p-0">
+                            <li>
+                                <a href="">IA</a>
+                            </li>
+                            <li>
+                                <a href="">Chat GPT</a>
+                            </li>
+                            <li>
+                                <a href="">Problemas eticos</a>
+                            </li>
+                            <li>
+                                <a href="">Chat GPT</a>
+                            </li>
+                            <li>
+                                <a href="">Chat GPT</a>
+                            </li>
+                            <li>
+                                <a href="">Chat GPT</a>
+                            </li>
+                        </ul>
+                        <h5 class="mt-5">
+                          <a href="./html/galeria.html">
+                            <h5>Ir a la galeria de imagenes.</h5>
+                          </a>
+                        </h5>
+                    </div>
+                    <div class="publicidad 	d-none d-lg-block ms-auto">
+                        <video autoplay muted loop src="./assets/video/Publicidad vertical.mp4"></video>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4" data-aos="fade-down">
+              <div class="linea"></div>
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-primario fuente">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-3 col-sm-6 text-center">
+              <a href="./index.html" style="text-decoration: none"><img src="Logo" alt="Logo" /></a>
+            </div>
+            <!-- imagen lleva a pagina principal -->
+            <div class="col-lg-3 col-sm-6 social-icons text-center">
+              <a href="https://www.twitter.com/" target="_blank" style="text-decoration: none"><i class="ri-twitter-fill"></i></a>
+              <a href="https://www.instagram.com/" target="_blank" style="text-decoration: none"><i class="ri-instagram-fill"></i></a>
+              <a href="https://www.facebook.com/" target="_blank" style="text-decoration: none"><i class="ri-facebook-fill"></i></a>
+              <a href="https://www.tiktok.com/" target="_blank" style="text-decoration: none"><i class="ri-tiktok-fill"></i></a>
+            </div>
+            <div class="col-lg-3 col-sm-6 text-center">
+              <a href="html/contacto.html" style="text-decoration: none"> <p class="mb-0 h5 text-white">Contacto</p></a>
+            </div>
+            <div class="col-lg-3 col-sm-6 text-center">
+              <a href="html/nosotros.html" style="text-decoration: none"> <p class="mb-0 h5 text-white">Nosotros</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row g-4 justify-content-center">
+            <div class="col-auto">
+              <p class="mb-0">© Copyright. Todos los derechos reservados.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+  </body>
+</html>

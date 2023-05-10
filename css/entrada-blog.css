@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+    background: url(../assets/image/22-DEHOU-GPT-Banner-1200x400-1.png);
+    height: 610px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3vh;
+}
+
+.espacio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.linea {
+    height: 1px;
+    width: 100%;
+    background-color: #11939f;
+    color: transparent;
+}
+
+#main p {
+    font-size: 18px;
+}
+
+#main h3 {
+    color: #045c8c;;
+}
+
+textarea {
+    resize: none;
+}
+
+#comentarios h4 {
+    color: #045c8c;
+}
+
+#comentarios {
+    padding-bottom: 140px;
+}
+
+/* NAVBAR Y FOOTER */
+.bg-primario {
+    background-color: #11939f !important;
+  }
+  
+  .bg-secundario {
+    background-color: #9cccd4 !important;
+  }
+  
+  .bg-terciario {
+    background-color: #045c8c !important;
+  }
+  
+  .bg-cuaternario {
+    background-color: #5599a4 !important;
+  }
+  
+  .bg-quinario {
+    background-color: #b4b4bc !important;
+  }
+  
+  nav {
+    font-family: "Poppins";
+  }
+  
+  span {
+    color: white;
+  }
+  
+  button {
+    padding: 10px;
+  }
+  
+  .menu a span:first-child {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .menu a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  .menu a span:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+  }
+  
+  .menu a span {
+    transition: transform 0.2s ease-out;
+  }
+  .menu a:hover span:first-child {
+    transform: translateY(100%);
+  }
+  .menu a:hover span:last-child {
+    transform: none;
+  }
+  
+  .menu[data-animation="to-top"] a span:last-child {
+    transform: translateY(100%);
+  }
+  .menu[data-animation="to-top"] a:hover span:first-child {
+    transform: translateY(-100%);
+  }
+  
+  .fuente {
+    font-family: "Poppins" !important;
+    font-weight: 500;
+    font-size: larger;
+  }
+  
+  /* FOOTER */
+  footer {
+    padding-top: 30px;
+  }
+  
+  .footer-top {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-bottom {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  footer li,
+  footer p,
+  footer a {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  footer .line {
+    width: 40px;
+    height: 4px;
+    background-color: #b4b4bc;
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+  }
+  
+  .social-icons a:hover {
+    background-color: #045c8c;
+    color: white;
+  }
+  
+  .enlace:hover {
+    background-color: #045c8c;
+    color: white;
+  }
