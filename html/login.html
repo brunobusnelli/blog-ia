@@ -13,6 +13,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Swanky-and-Moo-Moo" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../assets/image/favicon.ico" type="image/x-icon">
     <title>Inicia sesión</title>
   </head>
 
@@ -20,7 +21,7 @@
     <header>
       <nav class="navbar fixed-top navbar-expand-lg bg-primario">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><i class="ri-openai-fill"></i></a>
+          <a class="navbar-brand ms-3" href="../index.html"><img src="../assets/image/logonav.png" alt="Logo"></i></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -106,44 +107,45 @@
     </header>
 
     <main>
-      <div class="container" id="login">
+      <div class="container espacio" id="login">
         <div class="row">
-          <div class="col-12">
-            <div class="form-container entrada-container">
-              <form>
-                <div>
-                  <h2 class="mt-2">Bienvenidos!</h2>
-                  <label for="exampleInputEmail1" class="form-label mt-2">Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <button type="submit" class="btn btn-primary">Ingresar</button>
-                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modal">¿Olvidaste tu contraseña?</button>
-                <button type="submit" class="btn btn-outline-primary mt-3"><a style="text-decoration: none;" href="../html/error404.html">Conectarse con <i style="font-size: 20px;" class="ri-google-fill"></i></a></button>
-                <button type="submit" class="btn btn-outline-primary mt-3"><a style="text-decoration: none;" href="../html/error404.html">Conectarse con <i style="font-size: 20px;" class="ri-facebook-circle-fill"></i></a></button>
-              </form>
-            </div>
-            <div class="overlay-container">
-              <img
-                src="https://www.nationalgeographic.com.es/medio/2022/10/03/optimus-tesla_08046696_898x505.png"
-                alt=""
-              />
-            </div>
+          <div class="col-12 text-center mb-5">
+            <h2>Bienvenidos!</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div>
+                <button type="submit" class="btn btn-outline-primary mb-2">Ingresar</button>
+                <button type="button" class="btn btn-outline-primary mb-2" data-bs-toggle="modal" data-bs-target="#Modal">¿Olvidaste tu contraseña?</button>
+                <a href="./error404.html"><button type="button" class="btn btn-primary mb-2">Conectarse con <i class="ri-google-fill"></i></button></a>
+                <a href="./error404.html"><button type="button" class="btn btn-primary mb-2">Conectarse con <i class="ri-facebook-circle-fill"></i></button></a>
+              </div>
+            </form>
+          </div>
+          <div class="col-6" id="imglogin">
           </div>
         </div>
       </div>
-      <div class="modal" id="modal" tabindex="-1">
+      <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Ingresa tu email para recuperar tu contraseña</h5>
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Recuperar contraseña</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <input type="email" required>
+              <p>Ingrese su E-mail</p>
+              <input type="text" class="w-100">
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -160,7 +162,7 @@
           <div class="container">
             <div class="row gy-5">
               <div class="col-lg-3 col-sm-6 text-center">
-                <a href="../index.html" style="text-decoration: none"><img src="Logo" alt="Logo" /></a>
+                <a href="../index.html" style="text-decoration: none"><img src="../assets/image/logo.png" alt="Logo" /></a>
               </div>
               <!-- imagen lleva a pagina principal -->
               <div class="col-lg-3 col-sm-6 social-icons text-center">

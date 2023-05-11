@@ -1,4 +1,4 @@
-.body {
+/* .body {
   background-color: aquamarine;
   width: 0;
   height: 100vh;
@@ -6,14 +6,59 @@
 }
 
 img {
-  width: 50%;
-  height: 50%;
+  width: 75%;
+  height: 75%;
 }
 .container {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
+} */
+
+
+#error {
+  background: url(../assets/image/error.jpg);
+  background-position: center;
+  background-size: cover;
+  /* filter: grayscale(0.8); */
+}
+
+
+/* #btn {
+  filter: none;
+  background-color: red;
+} */
+
+.parpadea {
+  
+  animation-name: parpadeo;
+  animation-duration: infinite;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 2000ms;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
 }

@@ -1,15 +1,10 @@
-main {
+/* main {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
   margin: -20px 0 50px;
-}
-
-#login {
-  margin-top: 350px;
-  margin-bottom: 150px;
 }
 
 h2 {
@@ -57,7 +52,33 @@ main form button {
   width: 250px;
   cursor: pointer;
   font-size: 25px;
+} */
+
+h2 {
+  color: #045c8c;
 }
+
+#login {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.espacio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#imglogin {
+  background: url(../assets/image/tipos-aprendizaje-inteligencia-artificial.jpg);
+  background-size: cover;
+  background-position: center;
+  border: transparent 1px solid;
+  border-radius: 10px;
+}
+
+/* #login img {
+  height: 400px;
+} */
 
 /* NAVBAR Y FOOTER */
 
