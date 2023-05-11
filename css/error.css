@@ -1,36 +1,10 @@
-/* .body {
-  background-color: aquamarine;
-  width: 0;
-  height: 100vh;
-  padding: 0;
-}
-
-img {
-  width: 75%;
-  height: 75%;
-}
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
-} */
-
 
 #error {
   background: url(../assets/image/error.jpg);
   background-position: center;
   background-size: cover;
-  /* filter: grayscale(0.8); */
 }
 
-
-/* #btn {
-  filter: none;
-  background-color: red;
-} */
 
 .parpadea {
   
